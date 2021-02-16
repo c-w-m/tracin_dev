@@ -1,0 +1,39 @@
+# Runtime artifacts
+/build
+/src/_compress.c
+/tmp/
+*.pyc
+*.egg
+*.so
+*.sw[op]
+.cache
+
+# git Artifacts
+.git/
+
+# Coverage test artifacts
+/.run/
+htmlcov/
+.coverage
+coverage.xml
+junit.xml
+
+# PyCharm IDE
+/.idea/
+
+# Virtual Environments
+/.tox/
+/.venv/
+
+# Install Artifacts
+*.eggs/
+*.egg-info/
+
+# Benchmark Artifacts
+/asv/
+/.asv/
+
+# Setup Scripts
+get-pip.py
+setpath.sh
+clean_after_tox.sh
